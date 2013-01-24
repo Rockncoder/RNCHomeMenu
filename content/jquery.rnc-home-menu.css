@@ -11,6 +11,10 @@
     width: 500px;
     height: 500px;
 }
-.rnc-home-wrapper {
+.rnc-home-wrapper  {
     position: relative;
+}
+
+.rnc-home-wrapper > div, .rnc-home-wrapper > section {
+    overflow: hidden;
 }

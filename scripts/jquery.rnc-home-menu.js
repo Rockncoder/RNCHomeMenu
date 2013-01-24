@@ -52,10 +52,17 @@
         } else {
           that.$page.wrap('<div id="' + wrapper + '" class="rnc-home-wrapper" />');
           myAnimate.call(that, left);
+
         }
         that.state = !that.state;
         return false;
       });
+
+      that.$page.swipe(function(evt){
+        that.$page.find('.activator').trigger('click');
+        console.log("swipe received");
+      });
+
     }
   };
 
