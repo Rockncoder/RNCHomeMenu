@@ -1,0 +1,16 @@
+
+.rnc-home-menu {
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: #ddd;
+    background-color: #333;
+    z-index: -100;
+    width: 500px;
+    height: 500px;
+}
+.rnc-home-wrapper {
+    position: relative;
+}
